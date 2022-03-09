@@ -1,9 +1,12 @@
-# Snyk Vulnerabiliy Checking tool
+# Snyk Vulnerability Checking tool
+
 **SnykVulnCheck** - Snyk Vulnerability Checking tool<br>
-Tool for checking components from SBOM.json file (Software Bill of Material) against known vulnerabilities by using public API to Snyk Vulnerability DB (https://security.snyk.io/api)
+Tool for checking components from SBOM.json file (Software Bill of Material) against known vulnerabilities by using
+public API to Snyk Vulnerability DB (https://security.snyk.io/api)
 Tool is designed for running inside docker container or as an ordinary python script
 
 **Running in docker**
+
 1. Create docker image by running docker_build.cmd script
 2. Run docker image as container by running docker_run.cmd script
 
