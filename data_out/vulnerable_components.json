@@ -1,0 +1,112 @@
+{
+  "vulnerableComponents": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encoding@4.3.0",
+      "publisher": "Microsoft",
+      "name": "System.Text.Encoding",
+      "version": "4.3.0",
+      "description": "Provides base abstract encoding classes for converting blocks of characters to and from blocks of bytes.\n\nCommonly Used Types:\nSystem.Text.Encoding\nSystem.Text.DecoderFallbackException\nSystem.Text.Decoder\nSystem.Text.EncoderFallbackException\nSystem.Text.Encoder\nSystem.Text.EncoderFallback\nSystem.Text.EncoderFallbackBuffer\nSystem.Text.DecoderFallback\nSystem.Text.DecoderFallbackBuffer\nSystem.Text.DecoderExceptionFallback\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "purl": "pkg:nuget/System.Text.Encoding@4.3.0",
+      "vulnerabilities": [
+        {
+          "id": "SNYK-DOTNET-SYSTEMTEXTENCODINGSWEB-1253267",
+          "packageManager": "nuget",
+          "packageName": "system.text.encodings.web",
+          "title": "Remote Code Execution (RCE)",
+          "publicationTime": "2021-04-22T14:48:54.776601Z",
+          "semver": {
+            "vulnerable": [
+              "[4.0.0, 4.5.1)",
+              "[4.6.0, 4.7.2)",
+              "[5.0.0, 5.0.1)"
+            ]
+          },
+          "severity": "critical"
+        },
+        {
+          "id": "SNYK-DOTNET-SYSTEMTEXTENCODINGSWEB-60096",
+          "packageManager": "nuget",
+          "packageName": "system.text.encodings.web",
+          "title": "Authentication Bypass",
+          "publicationTime": "2017-05-12T00:00:00Z",
+          "semver": {
+            "vulnerable": [
+              "[,4.0.1)",
+              "[4.3,4.3.1)"
+            ]
+          },
+          "severity": "medium"
+        },
+        {
+          "id": "SNYK-DOTNET-SYSTEMTEXTENCODINGSWEB-60095",
+          "packageManager": "nuget",
+          "packageName": "system.text.encodings.web",
+          "title": "Privilege Escalation",
+          "publicationTime": "2017-05-12T00:00:00Z",
+          "semver": {
+            "vulnerable": [
+              "[,4.0.1)",
+              "[4.3,4.3.1)"
+            ]
+          },
+          "severity": "high"
+        },
+        {
+          "id": "SNYK-DOTNET-SYSTEMTEXTENCODINGSWEB-60094",
+          "packageManager": "nuget",
+          "packageName": "system.text.encodings.web",
+          "title": "Improper Certificate Validation",
+          "publicationTime": "2017-05-12T00:00:00Z",
+          "semver": {
+            "vulnerable": [
+              "[,4.0.1)",
+              "[4.3,4.3.1)"
+            ]
+          },
+          "severity": "high"
+        },
+        {
+          "id": "SNYK-DOTNET-SYSTEMTEXTENCODINGSWEB-60093",
+          "packageManager": "nuget",
+          "packageName": "system.text.encodings.web",
+          "title": "Denial of Service (DoS)",
+          "publicationTime": "2017-05-09T00:00:00Z",
+          "semver": {
+            "vulnerable": [
+              "[,4.0.1)",
+              "[4.3,4.3.1)"
+            ]
+          },
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encodings.Web@4.5.0",
+      "publisher": "Microsoft",
+      "name": "System.Text.Encodings.Web",
+      "version": "4.5.0",
+      "description": "Provides types for encoding and escaping strings for use in JavaScript, HyperText Markup Language (HTML), and uniform resource locators (URL).\n\nCommonly Used Types:\nSystem.Text.Encodings.Web.HtmlEncoder\nSystem.Text.Encodings.Web.UrlEncoder\nSystem.Text.Encodings.Web.JavaScriptEncoder\n \n30ab651fcb4354552bd4891619a0bdd81e0ebdbf \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "purl": "pkg:nuget/System.Text.Encodings.Web@4.5.0",
+      "vulnerabilities": [
+        {
+          "id": "SNYK-DOTNET-SYSTEMTEXTENCODINGSWEB-1253267",
+          "packageManager": "nuget",
+          "packageName": "system.text.encodings.web",
+          "title": "Remote Code Execution (RCE)",
+          "publicationTime": "2021-04-22T14:48:54.776601Z",
+          "semver": {
+            "vulnerable": [
+              "[4.0.0, 4.5.1)",
+              "[4.6.0, 4.7.2)",
+              "[5.0.0, 5.0.1)"
+            ]
+          },
+          "severity": "critical"
+        }
+      ]
+    }
+  ]
+}

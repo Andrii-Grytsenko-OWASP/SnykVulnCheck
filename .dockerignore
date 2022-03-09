@@ -1,0 +1,7 @@
+.idea/
+data_in/
+data_out/
+README.md
+docker_build.cmd
+docker_run.cmd
+Dockerfile

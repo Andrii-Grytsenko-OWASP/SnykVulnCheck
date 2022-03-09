@@ -1,0 +1,185 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.3",
+  "serialNumber": "urn:uuid:cf2038d2-ba88-49f8-9f27-f7c5ca829b7f",
+  "version": 1,
+  "metadata": {
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "CycloneDX module for .NET",
+        "version": "2.3.0.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "Application/Example.Api@0.0.0",
+      "name": "Application/Example.Api",
+      "version": "0.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/AspNetCore.HealthChecks.UI@5.0.1",
+      "publisher": "Xabaril Contributors",
+      "name": "AspNetCore.HealthChecks.UI",
+      "version": "5.0.1",
+      "description": "HealthChecks.UI Is a ASP.NET Core UI viewer of ASP.NET Core HealthChecks.For more information see https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "B07D0641CA2F75B9D1669F3A898F81A66DC24A10E76C9228CB79671A2ACC6CEF7532DEE6915A683CB04E9318856D32E9D90E108954D95C02B33028717A7121BC"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/AspNetCore.HealthChecks.UI@5.0.1",
+      "externalReferences": [
+        {
+          "url": "http://github.com/xabaril/AspNetCore.Diagnostics.HealthChecks",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/xabaril/AspNetCore.Diagnostics.HealthChecks",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "publisher": "James Newton-King",
+      "name": "Newtonsoft.Json",
+      "version": "13.0.1",
+      "description": "Json.NET is a popular high-performance JSON framework for .NET",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "83731B662EAF05379A23F8446EF47BBC111349DD4358B7BD8B51383FE9CF637E2FE62F78CEA52A0D7BDD582DC6FBBB5837D4A7B1D53DCF37A0AE7473E21EE7B1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 James Newton-King 2008",
+      "purl": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "externalReferences": [
+        {
+          "url": "https://www.newtonsoft.com/json",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/JamesNK/Newtonsoft.Json",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encoding@4.3.0",
+      "publisher": "Microsoft",
+      "name": "System.Text.Encoding",
+      "version": "4.3.0",
+      "description": "Provides base abstract encoding classes for converting blocks of characters to and from blocks of bytes.\n\nCommonly Used Types:\nSystem.Text.Encoding\nSystem.Text.DecoderFallbackException\nSystem.Text.Decoder\nSystem.Text.EncoderFallbackException\nSystem.Text.Encoder\nSystem.Text.EncoderFallback\nSystem.Text.EncoderFallbackBuffer\nSystem.Text.DecoderFallback\nSystem.Text.DecoderFallbackBuffer\nSystem.Text.DecoderExceptionFallback\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6FF7FEEC7313A7121F795EC7D376E4B8728C17294219FAFDFD4EA078F9DF1455B4685F0B3962C3810098E95D68594A8392C0B799D36EC8284CD6FCBD4CFE2C67"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Text.Encoding@4.3.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encodings.Web@4.5.0",
+      "publisher": "Microsoft",
+      "name": "System.Text.Encodings.Web",
+      "version": "4.5.0",
+      "description": "Provides types for encoding and escaping strings for use in JavaScript, HyperText Markup Language (HTML), and uniform resource locators (URL).\n\nCommonly Used Types:\nSystem.Text.Encodings.Web.HtmlEncoder\nSystem.Text.Encodings.Web.UrlEncoder\nSystem.Text.Encodings.Web.JavaScriptEncoder\n \n30ab651fcb4354552bd4891619a0bdd81e0ebdbf \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F802FBBCFE00A5F552092C6987033F7CD794A7B8A3ED6FC6B9B7378C12BDC081B94A7CED869447A4A79322EB47457973BA497DAA07C6A94CA64388CF9282A279"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Text.Encodings.Web@4.5.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/YamlDotNet@8.1.2",
+      "publisher": "Antoine Aubry",
+      "name": "YamlDotNet",
+      "version": "8.1.2",
+      "description": "This package contains the YAML parser and serializer.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "CA33456839BEF8A9717761C8734EE9D6DF44A0CA80A74CB2B695AAF7B8D04E9D797DA7549EDD287F96F8A4781242A25C687097412190ED9B09B9B1D017F1EC9E"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "purl": "pkg:nuget/YamlDotNet@8.1.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/aaubry/YamlDotNet/wiki",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/aaubry/YamlDotNet.git",
+          "type": "vcs"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+  ]
+}
