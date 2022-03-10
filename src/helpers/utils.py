@@ -54,7 +54,15 @@ def write_data(file_name: str, data: str):
 
 
 def get_versions(version_range: str) -> (str, str):
-    ver = version_range.replace("[,", "[0,").replace("[", "").replace(")", "").replace(" ", "")
+    ver = version_range \
+        .replace("[,", "[0,") \
+        .replace("-", ",") \
+        .replace("<", "") \
+        .replace("*", "0,999") \
+        .replace("[0,]", "[0,999)") \
+        .replace("[", "") \
+        .replace(")", "") \
+        .replace(" ", "")
     versions = ver.split(",")
     return versions[0], versions[1]
 
