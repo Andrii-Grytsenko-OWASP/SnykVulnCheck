@@ -49,7 +49,8 @@ class SnykVulnCheck:
             snyk_response = JsonTransmuter.transmute_from(response.data, SnykApiResponse)
             vuln_list = []
             for vulnerability in snyk_response.vulnerabilities:
-                if in_between(component.version, vulnerability.semver.vulnerable):
+                if component.name.lower() == vulnerability.package_name.lower() and \
+                        in_between(component.version, vulnerability.semver.vulnerable):
                     vuln_list.append(vulnerability)
             if len(vuln_list) > 0:
                 vulnerable_component = VulnerableComponent()
