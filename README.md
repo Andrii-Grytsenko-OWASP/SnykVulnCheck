@@ -1,3 +1,4 @@
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5929/badge)](https://bestpractices.coreinfrastructure.org/projects/5929)
 # Snyk Vulnerability Checking tool
 
 **SnykVulnCheck** - Snyk Vulnerability Checking tool<br>
