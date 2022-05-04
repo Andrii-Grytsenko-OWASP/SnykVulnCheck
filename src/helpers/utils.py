@@ -57,13 +57,18 @@ def get_versions(version_range: str) -> (str, str):
     ver = version_range \
         .replace("[,", "[0,") \
         .replace("-", ",") \
+        .replace("<=", "") \
         .replace("<", "") \
+        .replace(">=", "") \
+        .replace(">", "") \
         .replace("*", "0,999") \
-        .replace("[0,]", "[0,999)") \
+        .replace("[0,]", "0,999") \
         .replace("[", "") \
         .replace(")", "") \
         .replace(" ", "")
     versions = ver.split(",")
+    if len(versions) < 2:
+        versions = list(f"0,{str(*versions)}")[:2]
     return versions[0], versions[1]
 
 
